@@ -1,7 +1,7 @@
 require('./db');
 initDB();
 
-var USE_FASTCACHE = fast;
+var USE_FASTCACHE = false;
 
 var http = require('http');
 
